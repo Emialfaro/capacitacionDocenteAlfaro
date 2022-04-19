@@ -21,8 +21,18 @@ ul {
   text-align: center;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    padding: 10px 40px;
 }
-
+.titulo-animaciones {
+  width: 200px; 
+  transition: all 0.5s;
+}
+.titulo-animaciones:hover {
+ 
+     width: 600px;
+    padding: 40px;
+    background-color: cyan;
+ }
 footer {
   padding-top: 20px;
 }
